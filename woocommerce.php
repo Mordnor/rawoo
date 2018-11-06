@@ -6,7 +6,4 @@ woocommerce_content();
 get_footer();
 
 
-
-
-
 ?>
