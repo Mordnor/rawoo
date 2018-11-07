@@ -1,17 +1,23 @@
-.navbar {
-  padding: 0.5rem 6rem;
-  text-transform: uppercase;
-  background-color: #eeeeee; }
-
 .col-12 {
   padding: 0; }
 
 header {
   text-align: center;
-  height: 500px;
   background-color: #eeeeee;
-  color: black;
-  font-size: 5rem;
-  padding: 7rem 0; }
+  color: black; }
+  header .navbar {
+    padding: 0.5rem 6rem;
+    text-transform: uppercase;
+    background-color: transparent; }
+    header .navbar h2 {
+      font-weight: bold; }
+    header .navbar .fa-shopping-bag {
+      margin: 0 .5rem; }
+  header .carousel-item {
+    padding: 10rem 8rem; }
+    header .carousel-item .col-6 {
+      text-align: left; }
+      header .carousel-item .col-6 h3 {
+        font-size: 2.5rem; }
 
 /*# sourceMappingURL=style.css.map */
