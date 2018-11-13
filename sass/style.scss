@@ -35,3 +35,41 @@ header {
     background-color: #eeeeee;
     color: black;
 }
+
+.main {
+    nav {
+        display: flex;
+        margin: 3rem 0;
+
+        a {
+            margin-left: auto;
+            color: #fb92a3;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin: 0 1rem;
+
+                a {
+                    margin: 0;
+                    font-weight: 100;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    section {
+        padding: 0 3.5rem;
+    }
+}
+
+footer {
+    padding: 1rem 3.5rem;
+    background-color: #eeeeee;
+
+    h3 {}
+}

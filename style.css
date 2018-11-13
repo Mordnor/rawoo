@@ -20,4 +20,26 @@ header {
       header .carousel-item .col-6 h3 {
         font-size: 2.5rem; }
 
+.main nav {
+  display: flex;
+  margin: 3rem 0; }
+  .main nav a {
+    margin-left: auto;
+    color: #fb92a3; }
+  .main nav ul {
+    display: flex;
+    list-style: none; }
+    .main nav ul li {
+      margin: 0 1rem; }
+      .main nav ul li a {
+        margin: 0;
+        font-weight: 100;
+        color: black; }
+.main section {
+  padding: 0 3.5rem; }
+
+footer {
+  padding: 1rem 3.5rem;
+  background-color: #eeeeee; }
+
 /*# sourceMappingURL=style.css.map */
