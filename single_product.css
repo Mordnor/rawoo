@@ -1,0 +1,11 @@
+div > .status-publish {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 2rem 0; }
+  div > .status-publish .onsale {
+    display: none; }
+  div > .status-publish .summary h1 {
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=single_product.css.map */
