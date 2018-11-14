@@ -24,7 +24,7 @@ $categories = get_categories( $parameters );
 	$params = array(
 		'posts_per_page' => 6, 
 		'post_type' => 'product',
-		'product_cat' => 'high-end-human',
+		
 	); 
 	$wc_query = new WP_Query($params); // (2)
 ?>

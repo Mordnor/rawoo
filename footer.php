@@ -8,8 +8,10 @@
             <h3>About</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur esse optio aspernatur, numquam velit, magnam voluptates eligendi veniam exercitationem et cumque culpa perferendis aliquam beatae ullam deleniti nostrum nobis libero!</p>
             </div>
-            <div class="col-4">
+            <div class="col-4 newsletter">
             <h3>Newsletter</h3>
+            <input type="text">
+            <button class="btn btn-secondary" type="submit">ajouter mon email</button>
             </div>
         </div>
     </footer>
