@@ -11,14 +11,6 @@ add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
 
 
-add_action( 'woocommerce_before_single_product', 'add_text_after_excerpt_single_product', 25 );
-
-function add_text_after_excerpt_single_product(){
-    global $product;
-
-    // Output your custom text
-}
-
 
 
 
