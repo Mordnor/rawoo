@@ -21,7 +21,7 @@ add_action('get_header', 'remove_admin_login_header');
 
 // My Steelsheets
 
-wp_enqueue_style( 'style', get_stylesheet_uri() );
+// wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 
 
