@@ -11,19 +11,15 @@ add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
 // HOOK 
 
-// add_action('woocommerce_single_product_summary', 'display_label', 15);
 
 // ADD LABEL TO SHORT DESC SINGLE_PRODUCT
 
-// function display_label() {
-//     echo '<h4>Description :</h4>';
-//   } 
 
-// Hook in
-add_filter( 'woocommerce_get_availability', 'custom_override_get_availability', 1, 2);
- 
+  
 // The hook in function $availability is passed via the filter!
 // SHOW 'IN STOCK' OR 'OUT OF STOCK' RATHER THAN THE STOCK HIMSELF
+add_filter( 'woocommerce_get_availability', 'custom_override_get_availability', 1, 2);
+
 function custom_override_get_availability( $availability, $_product ) {
 if ( $_product->is_in_stock() ) $availability['availability'] = __('In Stock', 'woocommerce');
 return $availability;
